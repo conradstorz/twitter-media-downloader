@@ -26,7 +26,7 @@ class BaseTweetParser(object):
         consumer_secret = os.getenv("CONSUMER_SECRET")
         data = None
         if not all([consumer_secret, consumer_key]):
-            with open(os.path.join(home, ".twitter.json"), "r") as f:
+            with open(os.path.join(home, ".credentials.twitter.json"), "r") as f:
                 data = json.loads(f.read())
         consumer_key = data["consumer_key"]
         consumer_secret = data["consumer_secret"]

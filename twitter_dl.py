@@ -3,8 +3,8 @@ import os
 from argparse import ArgumentParser
 from time import time
 
-from .base_tweet_parser import BaseTweetParser
-from .threaded_tweet_parser import ThreadedTweetParser
+from base_tweet_parser import BaseTweetParser
+from threaded_tweet_parser import ThreadedTweetParser
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 

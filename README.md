@@ -2,7 +2,7 @@ Twitter Media Downloader
 ========================
 
 Download images and videos belonging to a particular twitter account. One needs to have a file 
-called `.credentials.json` with entries for the attributes `consumer_key` and `consumer_secret`
+called `.credentials.twitter.json` with entries for the attributes `consumer_key` and `consumer_secret`
 of the json file. Alternatively if these attributes are present in the environment, the script 
 will attempt to load them from the env. If both possibilites don't exist, then the script will fail.
 
